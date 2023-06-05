@@ -1,8 +1,8 @@
-let createnewjournalbtn = document.getElementById('#createnewjournalbtn');
+let btn = document.getElementById('btn');
 
-if (createnewjournalbtn) {
+if (btn) {
 
-    createnewjournalbtn.addEventlistener('click', function() {
-        createnewjournalbtn.innerText = 'Hi';
+    btn.addEventlistener('click', function() {
+        btn.innerText = 'Hi';
     });
 }
