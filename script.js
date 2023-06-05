@@ -1,0 +1,3 @@
+function newJournal(){
+    alert('Hi');
+}
