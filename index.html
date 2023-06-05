@@ -8,16 +8,11 @@
         <h1>Erfolgsjournal</h1>
     </header>
     <main>
-        <button id="btn">Neuer Eintrag</button>
+        <button onclick="newJournal()">Neuer Eintrag</button>
     </main>
     <script>
-        let btn = document.getElementById('btn');
-
-        if (btn) {
-
-            btn.addEventlistener('click', function() {
-                window.alert('Hi') 
-            });
+        function newJournal(){
+            alert('Hi');
         }
     </script>
 </body>
