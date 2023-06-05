@@ -10,6 +10,12 @@
         <main>
             <button id="createnewjournalbtn">Neuer Eintrag</button>
         </main>
-        <script src="main.js"></script>
+        <script>
+            let createnewjournalbtn = document.getElementById('createnewjournalbtn');
+
+createnewjournalbtn.addEventlistener('click', function() {
+    createnewjournalbtn.innerText = 'Hi'
+})
+        </script>
     </body>
 </html>
