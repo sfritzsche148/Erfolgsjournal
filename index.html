@@ -8,11 +8,12 @@
         <h1>Erfolgsjournal</h1>
     </header>
     <main>
-        <button onclick="newJournal()">Neuer Eintrag</button>
+        <button id="btn" onclick="newJournal()">Neuer Eintrag</button>
     </main>
     <script>
         function newJournal() {
-            alert('Hi');
+            let btn = document.getElementbyId('btn')
+            btn.innerText = 'Hi';
         }
     </script>
 </body>
