@@ -10,6 +10,15 @@
     <main>
         <button id="btn">Neuer Eintrag</button>
     </main>
-    <script src="main.js"></script>
+    <script>
+        let btn = document.getElementById('btn');
+
+        if (btn) {
+
+            btn.addEventlistener('click', function() {
+                btn.innerText = 'Hi';
+            });
+        }
+    </script>
 </body>
 </html>
